@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+}
+
+.gradient {
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    background-color: #b5caf9;
+    padding: 2.5em;
+    border-radius: 5px;
+}
+
+input {
+    cursor: pointer;
+    margin: 10px;
+}
+
+input[type=color] {
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;    
+    height: 30px;
+    width: 100px;
+}
+
+#suprise-btn {
+    text-decoration: none;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: white;
+    padding: 0 8px;
+    height: 30px;
+    color: black;
+    font-size: 16px;
+}
+
+#suprise-btn:hover {
+    background-color:#cfc2c2;
+}
+
+.center {
+    text-align: center;
+}
